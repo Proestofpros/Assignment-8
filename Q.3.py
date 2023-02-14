@@ -3,7 +3,7 @@ import tkinter as tk
 class Calculator(tk.Tk):
     def __init__(self):
         tk.Tk.__init__(self)
-        self.title("Calculator")
+        self.title("My Calculator")
         
         self.result = tk.StringVar()
         
